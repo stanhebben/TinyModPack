@@ -18,4 +18,6 @@ The recompression flag, if set to true, will extract the files of each mod, reco
 
 The modpacks will be installed in <userdir>/Modpacks/<Modpack name>. Also, installing a modpack in an existing directory will erase the folders mentioned in the files list. This means that, if you didn't include the saves directory, savegames will be preserved, while files that are no longer in the pack will be removed. This is useful if you want to upgrade your modpack with this mechanism (you don't have to uninstall) but this can have unforeseen consequences if data is saved in these directories.
 
+A modpack can also be extracted to a server from a command line with 'java -jar MyModpack.jar --installServer'. Again, keep in mind that you still have to install Minecraft, Forge and its libraries manually.
+
 Have fun!
